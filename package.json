@@ -1,0 +1,27 @@
+{
+    "name": "local-cerve",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": false,
+    "author": "Prashant Singh Chauhan",
+    "keywords":[ "web server framework","application server","js app server"],
+    "main": "server.js",
+    "bin": {
+        "p-scerve": "./server-run.js"
+    },
+    "files": [
+        "package.json",
+        "server.js",
+        "server-run.js"
+    ],
+    "dependencies": {
+        "loggur.js": "^1.0.0",
+        "compression": "^1.7.2",
+        "connect": "^3.6.6",
+        "minimist": "^1.2.5",
+        "moment": "^2.22.0",
+        "request": "^2.87.0",
+        "serve-static": "^1.14.1",
+        "ws": "^7.2.1"
+    }
+}
